@@ -1,7 +1,9 @@
 # p5_MaxMSP_OSC
 A short example for sending and receiving OSC in p5 and MaxMSP.
 
-We must do a few things to get p5 and Max talking over OSC.  First, you need to have Node installed either globally for all users on your machine or locally in the folder in which we are working.  In the case of the latter, you will see a <b>node_modules</b> folder added to the contents of this folder.  Google around about installing Node for more info.  
+We must do a few things to get p5 and Max talking over OSC.  
+
+First, you need to have Node installed either globally for all users on your machine or locally in the folder in which we are working.  In the case of the latter, you will see a <b>node_modules</b> folder added to the contents of this folder.  Google around about installing Node for more info.  
 
 Second, we use the node.js object in the Max patch to run the bridge.js script file which will establish a socket.io connection with the p5 sketch in the browser window.  To do this, you simply click the <b>“start script”</b> message box in the Max patch.  If the script is running (and you have Node properly installed), you will see the “green light” in the Node status window beneath.
 
